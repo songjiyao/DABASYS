@@ -27,9 +27,9 @@ public class SerialPort {
     private FileInputStream mFileInputStream;
     private FileOutputStream mFileOutputStream;
     /**
-     * 有些设备su路径是/system/xbin/su
+     * 有些设备su路径是/system/bin/su
      */
-    private static String mSuPath = "/system/bin/su";
+    private static String mSuPath = "/system/xbin/su";
 
     static {
         System.loadLibrary("android_serial_port");
